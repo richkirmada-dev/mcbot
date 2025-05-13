@@ -1,13 +1,14 @@
 {
   "name": "mcbot",
   "version": "1.0.0",
-  "description": "Minecraft bot using mineflayer",
+  "description": "Minecraft bot using mineflayer and plugins",
   "main": "index.js",
   "scripts": {
     "start": "node index.js"
   },
   "dependencies": {
-    "mineflayer": "^4.14.0"
+    "mineflayer": "^4.14.0",
+    "mineflayer-pathfinder": "^1.0.0"
   },
   "engines": {
     "node": ">=18.0.0"
